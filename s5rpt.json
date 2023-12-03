@@ -1,4 +1,3 @@
-<pre>
 {"IN": "144,975", "OUT": "145,575", "LOCATION": "LJUBLJANA CENTER", "CC": "", "CALL": "S55VLM", "UL": "JN76GB", "CTSS": "123.0"}
 {"IN": "144,975", "OUT": "145,575", "LOCATION": "LISCA", "CC": "", "CALL": "S55VLI", "UL": "JN76PB", "CTSS": "123.0"}
 {"IN": "144,9875", "OUT": "145,5875", "LOCATION": "MALI\u010c (Celje, La\u0161ko)", "CC": "", "CALL": "S55VCM", "UL": "JN76OE", "CTSS": "123.0"}
@@ -59,4 +58,3 @@
 {"IN": "431,7625", "OUT": "439,3625", "LOCATION": "STOL", "CC": "", "CALL": "S55UAR", "UL": "JN76CK2", "CTSS": "123.0"}
 {"IN": "431,775", "OUT": "439,375", "LOCATION": "UR\u0160LJA GORA", "CC": "", "CALL": "S55URK", "UL": "JN76LL1", "CTSS": "123.0"}
 {"IN": "431,800", "OUT": "439,400", "LOCATION": "STOL", "CC": "", "CALL": "S55DAR", "UL": "JN76CK2", "CTSS": "123.0"}
-</pre>
