@@ -19,7 +19,7 @@ MESHTATIC >> Je projekt kateri zavezema odprtokodno programsko kodo namenjeno ko
 
 ISM band >> je del radijskega spektra rezerviran za "industrial, scientific and medical" namene (868Mhz).
 
-PROTOBUF >> protocol ki skrbi za komunikacijo med napravami. Protokol razvit s strani Google-a, ki uporablja shemo za strukturirat podatke in je neodvisen od jezika na "backend-u".
+PROTOBUF >> protocol ki skrbi za komunikacijo med napravami. Protokol razvit s strani Google-a, ki s pomocjo sheme strukturira podatkje.Prokokol je neodvisen od jezika na "backend-u". V primerjavi z JSON zapisom, zmanjsa latency in zmanjsa velikost paketa ob istem sporocilu,
 
 CHANNEL >> Kanal na kateremu naprave komunicirajo. Kanal ni le frekvenca na katermem naprave komunicirajo ampak je tesno povezan z nastavitvami katere so "hardcodane" v kanal. To so ime kanala, enkripcija, frekvenca, nacin, geslo. Pomebno je razumeti, da je potrebno upostevati vec nastavitev da naprave uspesno komunicirajo na istem "kanalu".
 
