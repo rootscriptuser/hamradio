@@ -1,5 +1,7 @@
 # Definiranje pojmov
 
+// TO-DO module,hardware/software definition, radio , node, config,..
+
 FIRMWARE >> je koda katero zapisemo na samo napravo. V vecini je spisana v jeziku C++ in v binarni obliki jo zapecemo na napravo. Vsaka verzija naprave ima razlicne procesorje, module, ... zato je firmware za vsako napravo kompiliran v bitno kodo posebej in je zelo pomebno da izberemo pravi firmware za naso napravo
 
 SOFTWARE >> je aplikacija na nasem mobilnem telefonu katera interacira z meshtastic napravo preko serijskega (usb kabel,..), bluetooth-a, ali wi-fija. Wi-fi ali bluetoot ne moremo uporabiti naeenkrat.
