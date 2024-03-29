@@ -4,7 +4,7 @@ prirocnik je razdeljen na tri poglavja:
 1. opis in definiranje osnovnih pojmov
 1. hiter opis protokolnega sklada
 1. podroben opis nastavitev 
-1. Hitro in umazano navodilo za uspostaviti napravo
+1. Hitro in umazano navodilo za uspostaviti napravouporablja shemo za strukturirat/ //TO-DO
 
 # Definiranje pojmov
 
@@ -19,13 +19,13 @@ MESHTATIC >> Je projekt kateri zavezema odprtokodno programsko kodo namenjeno ko
 
 ISM band >> je del radijskega spektra rezerviran za "industrial, scientific and medical" namene (868Mhz).
 
-PROTOBUF >> protocol ki skrbi za komunikacijo med napravami. Protokol razvit s strani Google-a, ki s pomocjo sheme strukturira podatkje.Prokokol je neodvisen od jezika na "backend-u". V primerjavi z JSON zapisom, zmanjsa latency in zmanjsa velikost paketa ob istem sporocilu,
+PROTOBUF >> protocol ki skrbi za komunikacijo med napravami. Protokol razvit s strani Google-a. Prokokol je neodvisen od jezika na "backend-u". V primerjavi z JSON zapisom, zmanjsa latency in zmanjsa velikost paketa ob istem sporocilu. // TO-DO bistvo porotbuf, schema, struct data
 
-CHANNEL >> Kanal na kateremu naprave komunicirajo. Kanal ni le frekvenca na katermem naprave komunicirajo ampak je tesno povezan z nastavitvami katere so "hardcodane" v kanal. To so ime kanala, enkripcija, frekvenca, nacin, geslo. Pomebno je razumeti, da je potrebno upostevati vec nastavitev da naprave uspesno komunicirajo na istem "kanalu".
+CHANNEL >> Kanal na kateremu naprave komunicirajo. Kanal ni le frekvenca na katermem naprave komunicirajo ampak je tesno povezan z nastavitvami katere so "hardcodane" v kanal. To so ime kanala, enkripcija, frekvenca, nacin, geslo. Pomebno! >> upostevati je potrebno vec nastavitev ,da naprave lahko uspesno komunicirajo na istem "kanalu".
 
-MQTT >> message query telemetry transport. Lahki omrezni protokol za preposiljanje sporocil na nacin publish/subscribe oz objavi/naroci-se. Protokol se ne uporablja preko lora omrezja , ampak za komunikacijo preko interneta.
+MQTT >> message query telemetry transport. Lahki omrezni protokol za preposiljanje sporocil na nacin publish/subscribe oz objavi/naroci-se. Protokol se ne uporablja preko lora omrezja, ampak za komunikacijo preko interneta.
 
-MQTT BROKER >> je server na katerem zivi software, kateri deluje kot "posta" -- preposilja sporocila. Deluje na principu topic-ov/tem. Vsak ki je narocen na doloceno temo, dobi sporocila povezana s to temo. Skrbi za komunikacijo z vsemi klienti/meshtastici, ki so povezani z brokerjem.
+MQTT BROKER >> je server na katerem zivi software, kateri deluje kot "posta" -- preposilja sporocila. Deluje na principu topic-ov/tem. Vsak ki je narocen na doloceno temo, dobi sporocila povezana s to temo. Skrbi za komunikacijo z vsemi klienti/meshtastici, ki so povezani z brokerjem. // TO-DO uspostavi broker
 
 # PROTOKOLNI SKLAD (Protocol stack)
 
@@ -46,7 +46,7 @@ V glavi zero hop sporocila se nahaja:
 
 Sledi le se dejanski podatki iz paketka/sporocila.
 
-> CSMA/CA carrieer-sense multiple access /w collision avoidance
+### CSMA/CA carrieer-sense multiple access /w collision avoidance
 
 Vsi oddajniki naredijo channel activiti detection preden karkoli posljejo. Ce je kanal zaseden bo oddajnik pocakal nakljucno stevilo casovnih slotov preden bo poskusal oddajati. Tako se zmanjsa moznost kolizij. Vecja koz je utilizacija kanala, vecje oz. daljse je okno casovnih slotov pred dejansko oddajo.
 
@@ -63,9 +63,9 @@ Ce nasa naprava dobi paket z hopLimit-om vecijm od 0 bo paket preposlala naprej.
 
 Poglavje je razdelejno na `Radio Config` in `Module Config`. Ob razumevanju teh dveh pod-poglavji spoznamo podrobno veliko vecino vseh nastavitev naprave. Te nastavitve se nahajajo v aplikaciji, ce kliknemo v desnem kotu zgoraj na tri pikice oz. ti. nastavitveni gumb.
 
-# KONFIGURACIJA NASTVITEV(Radio Config)
+## KONFIGURACIJA NASTVITEV(Radio Config)
 
-## Nastavitve kanala oz.skuping (Channel)
+### Nastavitve kanala oz.skuping (Channel)
 
 Nastavitve kanala so namanjene segregiranju paketkov v grupe, nastavitve enkripcije in internetnega prehoda. Le-te nastavitve so tudi unikatne za vsak kanal. Nastavitve kanal se posljejo s `Channel` protobufom kot admin paket/sporocilo.
 
@@ -79,16 +79,16 @@ Poznami tri vloge kanalov:
 
 > Naprave samo na `PRIMARY CHANNEL` samodejno oddajajo boradcast telemtrije in pozicije.
 
-### Uplink in Downlink
+#### Uplink in Downlink
 
 Skrbi za preposiljanje paketov v internet preko Mqtt Brokerja ( za dopolnit)
 
 
-# Nastavitve naprave (Device)
+### Nastavitve naprave (Device)
 
 V tem meniju nastavimo kaksno vlogo bo imela nasa naprav. ali se bo obnasla kot "klient" oz. naprava za posiljanje in sprejemanje sporocil, router ki bo posredoval sporocila v internet, ali le lokalni repater brez interneta. Obstajjo se druge vloge opisane v original dokumentaciji.
 
-### Dolocitev vloge nase naprave
+#### Dolocitev vloge nase naprave
 
 Vloga|Opis|Poraba
 :--|--:|---:
@@ -97,8 +97,7 @@ ROUTER||Visoka
 ROUTER-CLIENT|Najvisja
 REPEATER|Visoka
 
-
-# Dolocitev rebroadcasting
+#### Dolocitev rebroadcasting
 
 Vrednost|Opis
 ---|---
@@ -107,11 +106,11 @@ ALL-SKIP-DECODING| samo za vlogo repeater
 LOCAL-ONLY| samo za domaco mrezo/mesh
 KNOWN-ONLY| ne prebroadcasta sporocila neznanih naprav v znanem omrezju
 
-## LoRa nastavitve (LoRa)
+### LoRa nastavitve (LoRa)
 
 `unset` je prenastavljen nacin modema za pasovno sirino spred facto in coding rate, kateri vplivajo na hitrost ooddajanja in domet.  Prdastavljena konfiguracija je optimalna in ni potrebnih sprememb.
 
-`LONG_FAST` je opstimalna in prednastavljena konfiguracija vseh treh faktorjev. Daljse kombinacije zasedejo veilko casovno okno, najdaljse pa so celo nezanesljive in samo za testne namene.
+`LONG_FAST` je opstimalna in prednastavljena konfiguracija vseh treh faktorjev. "Daljse" kombinacije zasedejo veilko casovno okno, najdaljse pa so celo nezanesljive in samo za testne namene.
 
 ###Pasovna sirina
 
@@ -126,29 +125,29 @@ Posebna st.|Interpretirana kot
 800|812.5
 1600|1625.0
 
-## (Network) 
+### (Network) 
 
 Nastavitve za povezavo na naprave na WI-FI/domaci router. Povezave ne uspe ce mogoce imamo WPA3 ali katero posebno rokovanje vklopljeno. Tudi na GUEST network-u iz vornoastnih razlogov ga mogoce ne bomo videli.
 
-## (Position)
+### (Position)
 
-## (Power)
+### (Power)
 
-## (User)
+### (User)
 
 // TO-DO
 
-# KONFIGURCIJA LORA MODULA (Module Config)
+## KONFIGURCIJA LORA MODULA (Module Config)
 
-## MQTT
+### MQTT
 
 V tem meniju vklopimo/izklopim mqtt modul. Vnesti moramo URL mqtt brokerja, uporabnisko ime, geslo, vklopit/izklopt enkrpcijo, TLS, JSON, ter obvezno vnesti `root topic`.
 
-## Neighbour Info
+### Neighbour Info
 
 Nastavimo interval posliljanja sporocil sosedom v mrezi o stanju naprave.
 
-## Telemetry
+### Telemetry
 
 // TO-DO
 
