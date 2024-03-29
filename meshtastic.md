@@ -1,11 +1,3 @@
-# UVOD
-
-prirocnik je razdeljen na tri poglavja:
-1. opis in definiranje osnovnih pojmov
-1. hiter opis protokolnega sklada
-1. podroben opis nastavitev 
-1. Hitro in umazano navodilo za uspostaviti napravouporablja shemo za strukturirat/ //TO-DO
-
 # Definiranje pojmov
 
 FIRMWARE >> je koda katero zapisemo na samo napravo. V vecini je spisana v jeziku C++ in v binarni obliki jo zapecemo na napravo. Vsaka verzija naprave ima razlicne procesorje, module, ... zato je firmware za vsako napravo kompiliran v bitno kodo posebej in je zelo pomebno da izberemo pravi firmware za naso napravo
@@ -138,6 +130,8 @@ Nastavitve za povezavo na naprave na WI-FI/domaci router. Povezave ne uspe ce mo
 // TO-DO
 
 ## KONFIGURCIJA LORA MODULA (Module Config)
+
+// TO-DO definicja modula kot "LoRa radio modula" ==> hardware module in "Mqtt modula, telemtry modula,.." ==> softverski modul
 
 ### MQTT
 
