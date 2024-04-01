@@ -1,0 +1,479 @@
+[
+    {
+        "IN": "430.600",
+        "OUT": "438.200",
+        "LOC": "KRIM",
+        "CC": "1",
+        "CALL": "S55DLJ",
+        "UL": "JN75FW",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.600",
+        "OUT": "438.200",
+        "LOC": "GOMILA",
+        "CC": "1",
+        "CALL": "S55DPT",
+        "UL": "JN76W",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.625",
+        "OUT": "438.225",
+        "LOC": "MALIJA",
+        "CC": "1",
+        "CALL": "S55DIZ",
+        "UL": "JN65T",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.625",
+        "OUT": "438.225",
+        "LOC": "STARE SLEMENE",
+        "CC": "1",
+        "CALL": "S55DSC",
+        "UL": "JN76Q",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.625",
+        "OUT": "438.225",
+        "LOC": "ŠPANOV VRH",
+        "CC": "1",
+        "CALL": "S55DSV",
+        "UL": "JN76AL",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.650",
+        "OUT": "438.250",
+        "LOC": "LUBNIK",
+        "CC": "1",
+        "CALL": "S55DSL",
+        "UL": "JN76DE",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.675",
+        "OUT": "438.275",
+        "LOC": "KUM",
+        "CC": "1",
+        "CALL": "S55DHF",
+        "UL": "JN76MC",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.700",
+        "OUT": "438.300",
+        "LOC": "MRZLICA",
+        "CC": "1",
+        "CALL": "S55DZA",
+        "UL": "JN76NE",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.725",
+        "OUT": "438.325",
+        "LOC": "MALA KOPA",
+        "CC": "1",
+        "CALL": "S55DKO",
+        "UL": "JN76OM",
+        "CTCSS": "3000"
+    },
+    {
+        "IN": "430.725",
+        "OUT": "438.325",
+        "LOC": "JAVORNIK",
+        "CC": "1",
+        "CALL": "S55DID",
+        "UL": "JN75AV",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.725",
+        "OUT": "438.325",
+        "LOC": "MIRNA GORA",
+        "CC": "1",
+        "CALL": "S55DBK",
+        "UL": "JN75NP",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.750",
+        "OUT": "438.350",
+        "LOC": "POHORJE-MB",
+        "CC": "1",
+        "CALL": "S55DMX",
+        "UL": "JN76T",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.750",
+        "OUT": "438.350",
+        "LOC": "TRAVNA GORA",
+        "CC": "1",
+        "CALL": "S55DRI",
+        "UL": "JN75H",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.750",
+        "OUT": "438.350",
+        "LOC": "KRANJSKA GORA",
+        "CC": "1",
+        "CALL": "S55DKG",
+        "UL": "JN66VL",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.775",
+        "OUT": "438.375",
+        "LOC": "ČRETEŽ",
+        "CC": "1",
+        "CALL": "S55DKK",
+        "UL": "JN75R",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.775",
+        "OUT": "438.375",
+        "LOC": "LJUBLJANA",
+        "CC": "2",
+        "CALL": "S55DLM",
+        "UL": "JN76G",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.800",
+        "OUT": "438.400",
+        "LOC": "LAZE",
+        "CC": "1",
+        "CALL": "S55DSE",
+        "UL": "JN75P",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.825",
+        "OUT": "438.425",
+        "LOC": "MALIČ",
+        "CC": "1",
+        "CALL": "S55DCM",
+        "UL": "JN76O",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.8375",
+        "OUT": "438.4375",
+        "LOC": "LENDAVA",
+        "CC": "1",
+        "CALL": "S55DLE",
+        "UL": "JN86F",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.850",
+        "OUT": "438.450",
+        "LOC": "KALOBJE",
+        "CC": "1",
+        "CALL": "S55DCS",
+        "UL": "JN76Q",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.875",
+        "OUT": "438.475",
+        "LOC": "KRVAVEC",
+        "CC": "1",
+        "CALL": "S55DKV",
+        "UL": "JN76GH",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.900",
+        "OUT": "438.500",
+        "LOC": "KOKOŠ",
+        "CC": "1",
+        "CALL": "S55DSN",
+        "UL": "JN65W",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.900",
+        "OUT": "438.500",
+        "LOC": "LJUBLJANA",
+        "CC": "1",
+        "CALL": "S55DLM",
+        "UL": "JN76G",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.900",
+        "OUT": "438.500",
+        "LOC": "CELJE",
+        "CC": "1",
+        "CALL": "S55DCE",
+        "UL": "JN76P",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.925",
+        "OUT": "438.525",
+        "LOC": "NOVO MESTO",
+        "CC": "1",
+        "CALL": "S55DST",
+        "UL": "JN75O",
+        "CTCSS": ""
+    },
+    {
+        "IN": "430.925",
+        "OUT": "438.525",
+        "LOC": "GOLTE",
+        "CC": "1",
+        "CALL": "S55DMO",
+        "UL": "JN76KI",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "430.950",
+        "OUT": "438.550",
+        "LOC": "ŽAGARSKI VRH",
+        "CC": "1",
+        "CALL": "S55DZV",
+        "UL": "JN76I",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.100",
+        "OUT": "438.700",
+        "LOC": "NANOS",
+        "CC": "",
+        "CALL": "S55DKP",
+        "UL": "JN75AS",
+        "CTCSS": ""
+    },
+    {
+        "IN": "431.125",
+        "OUT": "438.725",
+        "LOC": "Zg. KOCJAN",
+        "CC": "",
+        "CALL": "S55UTB",
+        "UL": "JN86A",
+        "CTCSS": ""
+    },
+    {
+        "IN": "431.125",
+        "OUT": "438.725",
+        "LOC": "ERMANOVEC",
+        "CC": "",
+        "CALL": "S55DGV",
+        "UL": "JN76AC",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.150",
+        "OUT": "438.750",
+        "LOC": "TRSTELJ",
+        "CC": "",
+        "CALL": "S55UGO",
+        "UL": "JN65U",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.200",
+        "OUT": "438.800",
+        "LOC": "RADIOKLUB PIRAN",
+        "CC": "",
+        "CALL": "S55DPI",
+        "UL": "JN65T",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.225",
+        "OUT": "438.825",
+        "LOC": "BOČ",
+        "CC": "",
+        "CALL": "S55UBC",
+        "UL": "JN76T",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.325",
+        "OUT": "438.925",
+        "LOC": "VELIKA PLANINA",
+        "CC": "",
+        "CALL": "S55UKA",
+        "UL": "JN76HH",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.425",
+        "OUT": "439.025",
+        "LOC": "KOBLA",
+        "CC": "",
+        "CALL": "S55UBO",
+        "UL": "JN66XF",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.450",
+        "OUT": "439.050",
+        "LOC": "Sv. ROK",
+        "CC": "",
+        "CALL": "S55DSX",
+        "UL": "JN76P",
+        "CTCSS": ""
+    },
+    {
+        "IN": "431.475",
+        "OUT": "439.075",
+        "LOC": "LISCA",
+        "CC": "",
+        "CALL": "S55DMR",
+        "UL": "JN76P",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.500",
+        "OUT": "439.100",
+        "LOC": "MRZLICA",
+        "CC": "",
+        "CALL": "S55DSF",
+        "UL": "JN76NE",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.550",
+        "OUT": "439.150",
+        "LOC": "KOBARIŠKI STOL",
+        "CC": "",
+        "CALL": "S55DBR",
+        "UL": "JN66RG",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.575",
+        "OUT": "439.175",
+        "LOC": "Sv. PLANINA",
+        "CC": "",
+        "CALL": "S55DTR",
+        "UL": "JN76ME",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.600",
+        "OUT": "439.200",
+        "LOC": "KNEŽAK",
+        "CC": "",
+        "CALL": "S55DKE",
+        "UL": "JN75C",
+        "CTCSS": ""
+    },
+    {
+        "IN": "431.625",
+        "OUT": "439.225",
+        "LOC": "SLAVNIK",
+        "CC": "",
+        "CALL": "S55DSK",
+        "UL": "JN75DQ",
+        "CTCSS": "3000"
+    },
+    {
+        "IN": "431.650",
+        "OUT": "439.250",
+        "LOC": "NOVA GORICA",
+        "CC": "",
+        "CALL": "S55DGO",
+        "UL": "JN65U",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.675",
+        "OUT": "439.275",
+        "LOC": "POLJUBINSKE RAVNE",
+        "CC": "",
+        "CALL": "S55DTO",
+        "UL": "JN66V",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.700",
+        "OUT": "439.300",
+        "LOC": "KANIN",
+        "CC": "",
+        "CALL": "S55DKN",
+        "UL": "JN66RI",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.7375",
+        "OUT": "439.3375",
+        "LOC": "TRDINOV VRH",
+        "CC": "",
+        "CALL": "S55DNM",
+        "UL": "JN75PS",
+        "CTCSS": "5500"
+    },
+    {
+        "IN": "431.750",
+        "OUT": "439.350",
+        "LOC": "KUK",
+        "CC": "",
+        "CALL": "S55DKB",
+        "UL": "JN76TE",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.775",
+        "OUT": "439.375",
+        "LOC": "KARLOVICA",
+        "CC": "",
+        "CALL": "S55DIB",
+        "UL": "JN75B",
+        "CTCSS": ""
+    },
+    {
+        "IN": "431.775",
+        "OUT": "439.375",
+        "LOC": "URŠLJA GORA",
+        "CC": "",
+        "CALL": "S55URK",
+        "UL": "JN76LL",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "431.800",
+        "OUT": "439.400",
+        "LOC": "STOL",
+        "CC": "",
+        "CALL": "S55DAR",
+        "UL": "JN76CK",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.1125",
+        "OUT": "145.7125",
+        "LOC": "PEČNA REBER (Postojna)",
+        "CC": "",
+        "CALL": "S55DPO",
+        "UL": "JN75C",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.1375",
+        "OUT": "145.7375",
+        "LOC": "VELIKI BREBROVNIK",
+        "CC": "",
+        "CALL": "S55VOR",
+        "UL": "JN86C",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "144.975",
+        "OUT": "145.575",
+        "LOC": "LISCA",
+        "CC": "",
+        "CALL": "S55VLI",
+        "UL": "JN76P",
+        "CTCSS": "123.0"
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "IN": "144.975",
+        "OUT": "145.575",
+        "LOC": "LJUBLJANA",
+        "CC": "",
+        "CALL": "RV46\nS55VLM",
+        "UL": "JN76G",
+        "CTCSS": "77.0"
+    },
+    {
+        "IN": "144.975",
+        "OUT": "145.575",
+        "LOC": "LISCA",
+        "CC": "",
+        "CALL": "RV46\nS55VLI",
+        "UL": "JN76P",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "144.9875",
+        "OUT": "145.5875",
+        "LOC": "MALIČ",
+        "CC": "",
+        "CALL": "RV47\nS55VCM",
+        "UL": "JN76O",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.0125",
+        "OUT": "145.6125",
+        "LOC": "MOHOR",
+        "CC": "",
+        "CALL": "RV49 \nS55VKR",
+        "UL": "JN76C",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.0125",
+        "OUT": "145.6125",
+        "LOC": "STUCINOV HRIB",
+        "CC": "",
+        "CALL": "RV49\nS55VRT",
+        "UL": "JN76O",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.025",
+        "OUT": "145.625",
+        "LOC": "NANOS",
+        "CC": "",
+        "CALL": "RV50 \nS55VKP",
+        "UL": "JN75AS",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.0375",
+        "OUT": "145.6375",
+        "LOC": "KOBLA",
+        "CC": "",
+        "CALL": "RV51\nS55VBO",
+        "UL": "JN66XF",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.0375",
+        "OUT": "145.6375",
+        "LOC": "STARE SLEMENE",
+        "CC": "",
+        "CALL": "RV51\nS55VSC",
+        "UL": "JN76Q",
+        "CTCSS": "77.0"
+    },
+    {
+        "IN": "145.050",
+        "OUT": "145.650",
+        "LOC": "TRDINOV VRH",
+        "CC": "",
+        "CALL": "RV52 \nS55VNM",
+        "UL": "JN75PS",
+        "CTCSS": "640"
+    },
+    {
+        "IN": "145.050",
+        "OUT": "145.650",
+        "LOC": "KUP (Podbrdo)",
+        "CC": "",
+        "CALL": "RV52\nS55VBG",
+        "UL": "JN66XF",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.075",
+        "OUT": "145.675",
+        "LOC": "KORADA",
+        "CC": "",
+        "CALL": "RV54\nS55VSG",
+        "UL": "JN66S",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.075",
+        "OUT": "145.675",
+        "LOC": "URŠLJA GORA",
+        "CC": "",
+        "CALL": "RV54 \nS55VRK",
+        "UL": "JN76LL",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.075",
+        "OUT": "145.675",
+        "LOC": "KRANJSKA GORA",
+        "CC": "",
+        "CALL": "RV54 \nS55VKG",
+        "UL": "JN66VL",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.0875",
+        "OUT": "145.6875",
+        "LOC": "\u017dAGARSKI VRH",
+        "CC": "",
+        "CALL": "RV55\nS55VZV",
+        "UL": "JN76I",
+        "CTCSS": "77.0"
+    },
+    {
+        "IN": "145.100",
+        "OUT": "145.700",
+        "LOC": "MRZLICA",
+        "CC": "",
+        "CALL": "RV56 \nS55VCE",
+        "UL": "JN76NE",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.1125",
+        "OUT": "145.7125",
+        "LOC": "PEČNA REBER",
+        "CC": "",
+        "CALL": "RV57\nS55VPO",
+        "UL": "JN75C",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.125",
+        "OUT": "145.725",
+        "LOC": "VOJSKO",
+        "CC": "",
+        "CALL": "RV58 \nS55VID",
+        "UL": "JN66WA",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.125",
+        "OUT": "145.725",
+        "LOC": "POHORJE-STOLP",
+        "CC": "",
+        "CALL": "RV58 \nS55VMB",
+        "UL": "JN76TM",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.125",
+        "OUT": "145.725",
+        "LOC": "JESENICE",
+        "CC": "",
+        "CALL": "RV58 \nS55VJE",
+        "UL": "JN76C",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.1375",
+        "OUT": "145.7375",
+        "LOC": "VELIKI BREBROVNIK",
+        "CC": "",
+        "CALL": "RV59\nS55VOR",
+        "UL": "JN86C",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.150",
+        "OUT": "145.750",
+        "LOC": "KARLOVICA",
+        "CC": "",
+        "CALL": "RV60 \nS55VBR",
+        "UL": "JN75B",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.1625",
+        "OUT": "145.7625",
+        "LOC": "MALIJA (Izola)",
+        "CC": "",
+        "CALL": "RV61\nS55VIZ",
+        "UL": "JN65T",
+        "CTCSS": "393430"
+    },
+    {
+        "IN": "145.175",
+        "OUT": "145.775",
+        "LOC": "KRIM",
+        "CC": "",
+        "CALL": "RV62 \nS55VLJ",
+        "UL": "JN75FW",
+        "CTCSS": "123.0"
+    },
+    {
+        "IN": "145.1875",
+        "OUT": "145.7875",
+        "LOC": "KANIN",
+        "CC": "",
+        "CALL": "RV63 \nS55VTO",
+        "UL": "JN66RI",
+        "CTCSS": "315147"
+    },
+    {
+        "IN": "145.1875",
+        "OUT": "145.7875",
+        "LOC": "SPODNJE KRASE",
+        "CC": "",
+        "CALL": "RV63\nS55VMO",
+        "UL": "JN76K",
+        "CTCSS": ""
+    },
+    {
+        "IN": "145.1875",
+        "OUT": "145.7875",
+        "LOC": "ČRETEŽ",
+        "CC": "",
+        "CALL": "RV63\nS55VKK",
+        "UL": "JN75R",
+        "CTCSS": "123.0"
+    }
+]
